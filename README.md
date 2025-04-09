@@ -1,5 +1,4 @@
-# fedppo
-code for fedppo
+# FedPPO: Reinforcement Learning-Based Client Selection for Federated Learning With Heterogeneous Data
 
 # required packages in the environment
 conda env create -f fedppo_env.yaml
