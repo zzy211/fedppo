@@ -1,9 +1,9 @@
 # FedPPO: Reinforcement Learning-Based Client Selection for Federated Learning With Heterogeneous Data
 
-# required packages in the environment
+## required packages in the environment
 conda env create -f fedppo_env.yaml
 
-# parameters
+## parameters
 | Paramater                         | Control                 | Default Value              | Choice                                           |
 |-----------------------------------|-------------------------|----------------------------|--------------------------------------------------|
 | iid & non-iid                     | `--iid`                 | `0` (0 for non-iid)        | `0`, `1`                                         |
@@ -15,10 +15,10 @@ conda env create -f fedppo_env.yaml
 |participation rate of users        | `--frac`                | `0.2`                      | `0.4`, `0.2`, `0.1`, `0.05`                      |
 
 
-# Running the experiments
+## Running the experiments
 python ppo_remove_main.py --model=resnet10 --dataset=cifar10 --iid=0 --epochs=100 --level_n_system=0.0 --level_n_lowerb=0.0 --target_acc=0.9 --frac=0.2 --non_iid_prob_class=0.7 --alpha_dirichlet=10 --gpu_id=0
 
-# Citation
+## Citation
 If you find this project helpful, please consider to cite the following paper:
 ```
 @ARTICLE{10909702,
