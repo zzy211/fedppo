@@ -21,6 +21,7 @@ python ppo_remove_main.py --model=resnet10 --dataset=cifar10 --iid=0 --epochs=10
 
 # Citation
 If you find this project helpful, please consider to cite the following paper:
+```
 @ARTICLE{10909702,
   author={Zhao, Zheyu and Li, Anran and Li, Ruidong and Yang, Lei and Xu, Xiaohua},
   journal={IEEE Transactions on Cognitive Communications and Networking}, 
@@ -31,3 +32,4 @@ If you find this project helpful, please consider to cite the following paper:
   pages={1-1},
   keywords={Noise measurement;Training;Data models;Accuracy;Noise;Adaptation models;Computational modeling;Servers;Distributed databases;Convergence;Reinforcement Learning;Federated Learning;Heterogeneous data},
   doi={10.1109/TCCN.2025.3547751}}
+```
